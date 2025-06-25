@@ -3,7 +3,8 @@ This repository gives the codes for "Fast ground penetrating radar dual paramete
 
 # Overview
 This study proposes a high-performance dual-parameter full waveform inversion framework (FWI) for ground-penetrating radar (GPR), accelerated through the hybrid compilation of CUDA kernel functions and PyTorch. The method leverages the computational efficiency of GPU programming while preserving the flexibility and usability of Python-based deep learning frameworks. By integrating customized CUDA kernels into PyTorch’s automatic differentiation mechanism, the developed framework enables accurate and efficient inversion of both dielectric permittivity and electrical conductivity.
-![gpr_figure](https://github.com/user-attachments/assets/ab0a7cd1-b38a-4ad5-a3d1-a4dfcab6dd95)
+![gpr_figre](https://github.com/user-attachments/assets/f87a0f99-681a-491a-b0a3-45b80a30cd6a)
+
 
 Cross-hole dual-parameter FWI. (a) True relative permittivity model; (b) initial relative permittivity model; (c) inverted relative permittivity model; (d) true conductivity model; (e) initial conductivity model; (f) inverted conductivity model.
 
