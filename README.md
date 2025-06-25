@@ -7,7 +7,7 @@ This study proposes a high-performance dual-parameter full waveform inversion fr
 
 Cross-hole dual-parameter GPR FWI. (a) True relative permittivity model; (b) initial relative permittivity model; (c) inverted relative permittivity model; (d) true conductivity model; (e) initial conductivity model; (f) inverted conductivity model.
 
-## Usage Instructions
+# Usage Instructions
 
 1. **CUDA Must Be Installed on the Runtime Device**
 
@@ -38,5 +38,5 @@ Cross-hole dual-parameter GPR FWI. (a) True relative permittivity model; (b) ini
    This will compile the necessary .cu source files into .so shared objects.
 4. **Run the Test File `example.ipynb`**
    
-   Open and execute the dm.ipynb notebook using Jupyter to verify everything is working correctly. 
+   Open and execute the example.ipynb notebook using Jupyter to verify everything is working correctly. 
 
