@@ -36,7 +36,7 @@ Cross-hole dual-parameter GPR FWI. (a) True relative permittivity model; (b) ini
    make
    ```
    This will compile the necessary .cu source files into .so shared objects.
-4. **Run the Test File `dm.ipynb`**
+4. **Run the Test File `example.ipynb`**
    
    Open and execute the dm.ipynb notebook using Jupyter to verify everything is working correctly. 
 
