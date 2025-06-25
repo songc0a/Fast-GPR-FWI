@@ -7,25 +7,36 @@ This study proposes a high-performance dual-parameter full waveform inversion fr
 
 Cross-hole dual-parameter GPR FWI. (a) True relative permittivity model; (b) initial relative permittivity model; (c) inverted relative permittivity model; (d) true conductivity model; (e) initial conductivity model; (f) inverted conductivity model.
 
-# Usage Instructions
-1. CUDA Must Be installed on the Runtime Device
+## Usage Instructions
 
-Ensure that your machine has the NVIDlA CUDA drivers and toolkit properly installed.You can verify the installation by running: nvcc -V
+1. **CUDA Must Be Installed on the Runtime Device**
 
-2. Create or Activate a Conda Environment with CUDA-Enabled PyTorch
+   Ensure that your machine has the NVIDIA CUDA drivers and toolkit properly installed.  
+   You can verify the installation by running:
 
-Create or activate a Conda virtual environment and make sure it includes a version of PyTorch with CUDA support. You can find suitable CuDA-enabled PyTorch versions at: https://download.pytorch.org/whl/torch/。 Example: to install PyTorch for CUDA 11.7:
+   ```bash
+   nvcc -V
+2. **Create or Activate a Conda Environment with CUDA-Enabled PyTorch**
 
-pip install torch==l.13.1+cu117 torchvision==0.14.1+cu117 -fhttps://download.pytorch.org/whl/torch stable.html
+   Create or activate a Conda virtual environment, and make sure it includes a version of PyTorch with CUDA support.
 
-3. Navigate to the DeepGPR Project Directory and Compile
+   - You can find suitable CUDA-enabled PyTorch versions at:：
+     [https://download.pytorch.org/whl/torch/](https://download.pytorch.org/whl/torch/)
+   - Example: to install PyTorch for CUDA 11.7:
+     ```bash
+     pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 -f https://download.pytorch.org/whl/torch_stable.html
+     ```
 
-Change to the DeepGPR/deepgpr directory and compile using the provided Makefile:
+3. **Navigate to the DeepGPR Project Directory and Compile**
 
-cd FastGPRFWI\src
+   Change to the `FastGPRFWI/src` directory and compile using the provided Makefile: 
 
-make
+   ```bash
+   cd FastGPRFWI/src
+   make
+   ```
+   This will compile the necessary .cu source files into .so shared objects.
+4. **Run the Test File `dm.ipynb`**
+   
+   Open and execute the dm.ipynb notebook using Jupyter to verify everything is working correctly. 
 
-This will compile the necessary .cu source files into .so shared objects.
-
-4. Run the Test File example.ipynb
