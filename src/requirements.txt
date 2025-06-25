@@ -1,0 +1,4 @@
+matplotlib==3.8.3
+numpy==2.3.1
+Pillow==11.2.1
+scipy==1.16.0
