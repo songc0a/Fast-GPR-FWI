@@ -19,6 +19,10 @@ pip install torch==l.13.1+cu117 torchvision==0.14.1+cu117 -fhttps://download.pyt
 
 Change to the DeepGPR/deepgpr directory and compile using the provided Makefile:
 
-cd DeepGPR/deepgpr
+cd FastGPRFWI\src
 
 make
+
+This will compile the necessary .cu source files into .so shared objects.
+
+4. Run the Test File example.ipynb
