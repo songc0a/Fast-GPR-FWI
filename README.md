@@ -7,4 +7,8 @@ This study proposes a high-performance dual-parameter full waveform inversion fr
 # Usage Instructions
 1. CUDA Must Be installed on the Runtime Device
 
-Ensure that your machine has the NVIDlA CUDA drivers and toolkit properly installed.You can verify the installation by running:
+Ensure that your machine has the NVIDlA CUDA drivers and toolkit properly installed.You can verify the installation by running: nvcc -V
+
+2.  Create or Activate a Conda Environment with CUDA-Enabled PyTorch
+
+Create or activate a Conda virtual environment, and make sure it includes a version of PyTorch with CUDA support. You can find suitable CuDA-enabled PyTorch versions at: https://download.pytorch.org/whl/torch/。 Example: to install PyTorch for CUDA 11.7: pip install torch==l.13.1+cu117 torchvision==0.14.1+cu117 -fhttps://download.pytorch.org/whl/torch stable.html
