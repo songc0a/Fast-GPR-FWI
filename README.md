@@ -27,7 +27,7 @@ Cross-hole dual-parameter GPR FWI. (a) True relative permittivity model; (b) ini
      pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 -f https://download.pytorch.org/whl/torch_stable.html
      ```
 
-3. **Navigate to the DeepGPR Project Directory and Compile**
+3. **Navigate to the FastGPRFWI Project Directory and Compile**
 
    Change to the `FastGPRFWI/src` directory and compile using the provided Makefile: 
 
