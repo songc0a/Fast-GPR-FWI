@@ -40,3 +40,17 @@ Cross-hole dual-parameter GPR FWI. (a) True relative permittivity model; (b) ini
    
    Open and execute the example.ipynb notebook using Jupyter to verify everything is working correctly. 
 
+
+# Cite information
+If you find our codes useful, please kindly cite this article.
+
+@article{liu2025fast,
+
+  title={Fast ground penetrating radar dual-parameter full waveform inversion method accelerated by hybrid compilation of CUDA kernel function and PyTorch},
+  
+  author={Liu, Lei and Song, Chao and He, Liangsheng and Wang, Silin and Feng, Xuan and Liu, Cai},
+  
+  journal={arXiv preprint arXiv:2506.20513},
+  
+  year={2025}
+}
